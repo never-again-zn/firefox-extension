@@ -1,0 +1,40 @@
+{
+  "name": "neveragain",
+  "version": "1.0.0",
+  "description": "A browser extension that highlights the products and brands related to apartheid Israel.",
+  "source": "src/neverAgain.ts",
+  "main": "dist/neverAgain.js",
+  "targets": {
+    "main": {
+      "includeNodeModules": true,
+      "optimize": true
+    }
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "clean": "rm -rf dist/",
+    "move-core": "cp src/neverAgain.css dist/neverAgain.css && cp src/privacy_policy.txt dist/privacy_policy.txt",
+    "move-ff": "cp src/manifestFirefox.json dist/manifest.json && mkdir dist/icons && cp icons/never-again-logo-icon-only-128x128-min.svg dist/icons/never-again-logo-icon-only-128x128-min.svg",
+    "move-chr": "cp src/manifestChrome.json dist/manifest.json && mkdir dist/icons && cp icons/icon16.png dist/icons/icon16.png && cp icons/icon48.png dist/icons/icon48.png && cp icons/icon128.png dist/icons/icon128.png",
+    "build-core": "npm run clean && parcel build",
+    "build-ff": "npm run build-core && npm run move-ff && npm run move-core",
+    "build-chr": "npm run build-core && npm run move-chr && npm run move-core"
+  },
+  "author": "Never Again",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://never-aga.in"
+  },
+  "homepage": "https://never-aga.in",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "mark.js": "^8.11.1"
+  },
+  "devDependencies": {
+    "@parcel/validator-typescript": "^2.11.0",
+    "@types/mark.js": "^8.11.12",
+    "@types/webextension-polyfill": "^0.10.7",
+    "parcel": "^2.11.0",
+    "typescript": "^5.3.3"
+  }
+}
