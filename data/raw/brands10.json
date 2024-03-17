@@ -1,0 +1,1012 @@
+
+{
+    "data": [
+        {
+            "id": 437,
+            "attributes": {
+                "name": "Sephora",
+                "imageUrl": "https://1000logos.net/wp-content/uploads/2018/08/Sephora-Logo.png",
+                "proof": "**Sephora** is owned by **LVMH**.\n\nBernard Arnault, the chairman and **CEO** of **LMVH** Moet Hennessy-Louis Vuitton, and the world’s richest man according to Forbes, has **invested** in cybersecurity firm, **Wiz**, the **Israeli** maker of cloud security solutions for enterprises.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:57:28.705Z",
+                "updatedAt": "2023-11-14T18:02:14.433Z",
+                "publishedAt": "2023-11-11T14:57:33.836Z",
+                "proofUrl": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+                "tags": null,
+                "filename": "sephora.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 494,
+            "attributes": {
+                "name": "Sheba",
+                "imageUrl": "https://assets.stickpng.com/images/6027eb75ed4efb000419981b.png",
+                "proof": "Owned by **Mars Inc**.\n\n**Mars** will support Israeli start-ups and the formation of companies, and will work together with leading Israeli academic institutions, such as the Hebrew University, the Weizmann Institute, the Technion, Migall and Tel Hai College, among others, to further Foodtech innovations.",
+                "priority": false,
+                "createdAt": "2023-11-11T19:22:43.674Z",
+                "updatedAt": "2023-11-21T00:44:13.581Z",
+                "publishedAt": "2023-11-11T19:22:44.497Z",
+                "proofUrl": "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+                "tags": null,
+                "filename": "sheba.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 626,
+            "attributes": {
+                "name": "Showtime Networks Inc.",
+                "imageUrl": null,
+                "proof": "Owned by **Paramount Global**.\n\n**Paramount Global** stated, 'We stand with the people of Israel and the global Jewish community.\"",
+                "priority": false,
+                "createdAt": "2023-11-19T23:45:31.811Z",
+                "updatedAt": "2023-11-19T23:45:31.811Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://variety.com/2023/film/news/hollywood-studios-israel-palestine-hamas-attacks-1235753540/",
+                "tags": null,
+                "filename": "Showtime.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 589,
+            "attributes": {
+                "name": "Shu Uemura",
+                "imageUrl": null,
+                "proof": "**Shu Uemura** is owned by **L'Oreal.**\n\n**34.70%** of L’Oreal is owned by Mrs. Francoise Bettencourt Meyers and her family. **20.1%** of L’ Oreal is owned by **Nestle**. Nestle began **investing** in **Israel** in 1995 by buying 10% of Israeli food maker **Osem** Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a 53.8 percent stake in Osem Swiss food giant Nestle will set up a global research and development center for snack foods next year in Sderot, a town in Israel's Negev desert, the Maariv.",
+                "priority": false,
+                "createdAt": "2023-11-18T22:06:13.399Z",
+                "updatedAt": "2024-01-02T21:22:44.469Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://www.loreal-finance.com/eng/share-ownership",
+                "tags": null,
+                "filename": "shuuemura.webp",
+                "alternative": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "Lush",
+                            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Lush_Logo.png",
+                            "createdAt": "2023-11-12T15:16:38.196Z",
+                            "updatedAt": "2023-11-14T19:56:36.791Z",
+                            "publishedAt": "2023-11-12T15:16:39.631Z",
+                            "filename": "lush.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 362,
+            "attributes": {
+                "name": "Sierra Mist",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Sierra_Mist_2018_Logo.svg",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:12:15.889Z",
+                "updatedAt": "2023-11-14T18:03:00.364Z",
+                "publishedAt": "2023-11-11T14:12:16.768Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "sierra-mist.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 40,
+            "attributes": {
+                "name": "Signal",
+                "imageUrl": "https://logowik.com/content/uploads/images/signal-plus.jpg",
+                "proof": "Owned by **Unilever**.\n\n**Signal** and Ben & Jerry's are owned by **Unilever**. When Ben & Jerry's decided to stop selling its products in Israel, **Unilever** sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+                "priority": false,
+                "createdAt": "2023-11-06T18:33:33.973Z",
+                "updatedAt": "2023-11-14T18:03:18.221Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+                "tags": null,
+                "filename": "signal.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 270,
+            "attributes": {
+                "name": "Silan",
+                "imageUrl": "https://www.henkel.be/resource/image/27920/1x1/1000/1000/dc8bf71e80d99921312b66f81675ba81/EAFF78A4316702A3E67FB47A944A5560/silan-logo.webp",
+                "proof": "Owned by **Henkel**.\n\n**Henkel** invests in Israeli technology namely by investing in Feelit. A company with its roots in Israël.",
+                "priority": false,
+                "createdAt": "2023-11-09T18:53:46.277Z",
+                "updatedAt": "2023-11-14T18:03:29.540Z",
+                "publishedAt": "2023-11-09T23:41:44.891Z",
+                "proofUrl": "https://www.henkel.com/press-and-media/press-releases-and-kits/2021-01-07-henkel-invests-in-technology-start-up-feelit-1141594",
+                "tags": null,
+                "filename": "silan.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 380,
+            "attributes": {
+                "name": "Simply",
+                "imageUrl": "https://www.drinksimplybeverages.com/content/dam/nagbrands/us/simply/en/home/2022/simply-logo-transparent.png",
+                "proof": "Owned by **The Coca-Cola Company**.\n\n**Coca-Cola Israel** owns dairy farms in the illegal Israeli settlements of Shadmot Mechola in the Jordan Valley and a plant in the industrial zone of Katzerin in the occupied Golan Heights.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:26:05.947Z",
+                "updatedAt": "2023-11-14T18:03:41.469Z",
+                "publishedAt": "2023-11-11T14:26:06.717Z",
+                "proofUrl": "http://www.inminds.com/boycott-coca-cola.html",
+                "tags": null,
+                "filename": "simply.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 175,
+            "attributes": {
+                "name": "Sirma",
+                "imageUrl": "https://logowik.com/content/uploads/images/718_sirma_logo.jpg",
+                "proof": "Owned by **Danone**.\n\n**Danone** leads an investment of about NIS 12.5 million in Israel's Wilk, alongside Israeli milk firm Tara.",
+                "priority": false,
+                "createdAt": "2023-11-06T22:36:09.981Z",
+                "updatedAt": "2023-11-14T18:03:52.341Z",
+                "publishedAt": "2023-11-06T23:15:25.328Z",
+                "proofUrl": "https://www.jpost.com/business-and-innovation/banking-and-finance/article-743853",
+                "tags": null,
+                "filename": "sirma.webp",
+                "alternative": {
+                    "data": {
+                        "id": 24,
+                        "attributes": {
+                            "name": "Kızılay",
+                            "imageUrl": "https://www.kizilayicecek.com.tr/media/5q4por04/kizilay_i%C3%A7ecek_logo.png",
+                            "createdAt": "2023-11-12T11:05:38.236Z",
+                            "updatedAt": "2023-11-14T19:56:07.340Z",
+                            "publishedAt": "2023-11-12T11:05:38.885Z",
+                            "filename": "kizilay.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 310,
+            "attributes": {
+                "name": "Skii",
+                "imageUrl": "https://cdn.freebiesupply.com/logos/large/2x/sk-ii-logo-png-transparent.png",
+                "proof": "Owned by **Procter and Gamble**.\n\n**Procter and Gamble** opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "priority": false,
+                "createdAt": "2023-11-10T17:27:56.563Z",
+                "updatedAt": "2023-11-14T18:04:04.441Z",
+                "publishedAt": "2023-11-10T22:48:05.579Z",
+                "proofUrl": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=766ad3d811f5",
+                "tags": null,
+                "filename": "skii.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 7,
+            "attributes": {
+                "name": "SkinBetter Science",
+                "imageUrl": "https://delawarevalleyplasticsurgery.com/wp-content/uploads/2020/06/skinbetter-logo.png",
+                "proof": "Owned by **L'Oreal**. \n\n34.70% of **L’Oreal** is owned by Mrs. Francoise Bettencourt Meyers and her family. **L’Oreal** is owned by **Nestle**. **Nestle** began investing in Israel in 1995 by buying 10% of Israeli food maker Osem Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a 53.8 percent stake in Osem Swiss food giant **Nestle** will set up a global research and development center for snack foods next year in Sderot, a town in Israel's Negev desert, the Maariv.",
+                "priority": false,
+                "createdAt": "2023-11-06T17:32:32.499Z",
+                "updatedAt": "2024-01-02T21:22:48.870Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.loreal-finance.com/eng/share-ownership",
+                "tags": null,
+                "filename": "skinbetter-science.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "name": "SkinCeuticals",
+                "imageUrl": "https://skintelligencepartners.com/wp-content/uploads/2018/09/SkinCeuticals-Logo-Cosmedic-Online-e1586272527991.png",
+                "proof": "Owned by **L'Oreal**. \n\n34.70% of **L’Oreal** is owned by Mrs. Francoise Bettencourt Meyers and her family. 20.1% of **L’Oreal** is owned by **Nestle**. **Nestle** began investing in Israel in 1995 by buying 10% of Israeli food maker Osem Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a 53.8 percent stake in Osem Swiss food giant **Nestle** will set up a global research and development center for snack foods next year in Sderot, a town in Israel's Negev desert, the Maariv.",
+                "priority": false,
+                "createdAt": "2023-11-06T17:30:47.200Z",
+                "updatedAt": "2024-01-02T21:22:55.297Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.loreal-finance.com/eng/share-ownership",
+                "tags": null,
+                "filename": "skin-ceuticals.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 35,
+            "attributes": {
+                "name": "Skittles",
+                "imageUrl": "https://1000logos.net/wp-content/uploads/2017/10/skittles-logo-color.jpg",
+                "proof": "Owned by **Mars Inc**.\n\n**Mars** will support Israeli start-ups and the formation of companies, and will work together with leading Israeli academic institutions, such as the Hebrew University, the Weizmann Institute, the Technion, Migall and Tel Hai College, among others, to further Foodtech innovations.",
+                "priority": false,
+                "createdAt": "2023-11-06T18:27:55.644Z",
+                "updatedAt": "2023-11-21T00:44:17.783Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+                "tags": null,
+                "filename": "skittles.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 449,
+            "attributes": {
+                "name": "Smartfood",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Smartfoodpopcorn.png",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:06:41.631Z",
+                "updatedAt": "2023-11-14T18:05:23.760Z",
+                "publishedAt": "2023-11-11T15:06:42.493Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "smartfood.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 194,
+            "attributes": {
+                "name": "Smarties",
+                "imageUrl": "https://www.nestle.com/sites/default/files/styles/thumbnail/public/smarties-logo-round-2022.png?itok=R1mC_Uc1",
+                "proof": "Owned by **Nestlé**.\n\n**Nestlé** is 100% owned by swiss. **Nestlé** began investing in Israel in 1995 by buying 10% of Israeli food maker Osem Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a 53.8 percent stake in Osem Swiss food giant **Nestlé** will set up a global research and development centre for snack foods in Sderot, a town in Israel's Negev desert, the Maariv newspaper reported on Sunday. ",
+                "priority": false,
+                "createdAt": "2023-11-06T22:56:53.014Z",
+                "updatedAt": "2023-11-14T18:05:36.812Z",
+                "publishedAt": "2023-11-06T22:58:18.496Z",
+                "proofUrl": "https://www.just-food.com/news/israel-nestle-to-up-stake-in-osem/?cf-view",
+                "tags": null,
+                "filename": "smarties.webp",
+                "alternative": {
+                    "data": {
+                        "id": 15,
+                        "attributes": {
+                            "name": "Ülker",
+                            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/%C3%9Clker_logo.svg/2560px-%C3%9Clker_logo.svg.png",
+                            "createdAt": "2023-11-08T13:13:41.584Z",
+                            "updatedAt": "2023-11-14T19:58:19.444Z",
+                            "publishedAt": "2023-11-08T13:13:42.946Z",
+                            "filename": "ulker.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 127,
+            "attributes": {
+                "name": "Smartwater",
+                "imageUrl": "https://www.coca-colahellenic.com/content/dam/cch/us/images/our-24-7-portfolio/brand-image/glaceau-smartwater-logo-300x300.png",
+                "proof": "Owned by **The Coca-Cola Company**.\n\n**Coca-Cola Israel** owns dairy farms in the illegal Israeli settlements of Shadmot Mechola in the Jordan Valley and a plant in the industrial zone of Katzerin in the occupied Golan Heights.",
+                "priority": false,
+                "createdAt": "2023-11-06T21:43:13.031Z",
+                "updatedAt": "2023-11-14T18:11:17.211Z",
+                "publishedAt": "2023-11-06T21:50:39.362Z",
+                "proofUrl": "http://www.inminds.com/boycott-coca-cola.html",
+                "tags": null,
+                "filename": "glaceau-smartwater.webp",
+                "alternative": {
+                    "data": {
+                        "id": 25,
+                        "attributes": {
+                            "name": "Spa",
+                            "imageUrl": "https://cdn.worldvectorlogo.com/logos/spa-water-reine.svg",
+                            "createdAt": "2023-11-12T11:06:04.540Z",
+                            "updatedAt": "2023-11-14T19:57:29.899Z",
+                            "publishedAt": "2023-11-12T11:06:05.167Z",
+                            "filename": "spa.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 582,
+            "attributes": {
+                "name": "smashbox",
+                "imageUrl": null,
+                "proof": "Smashbox is owned by **Estée Lauder**.\n\n**Ronald Lauder**, who together with his brother Leonard Lauder inherited the Estee Lauder company, is the president of the **World Jewish Congress**, and chairman of the Jewish National Fund, and is a **zionist** with extremist views and financially and politically supports **Israeli** occupation of Palestinian land.",
+                "priority": false,
+                "createdAt": "2023-11-18T21:58:51.279Z",
+                "updatedAt": "2023-11-19T23:55:59.680Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://www.jnf.org/menu-3/speakers-bureau/bio-page?id=830973c9-caae-67a8-a4cf-ff000038378d",
+                "tags": null,
+                "filename": "smashbox.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 628,
+            "attributes": {
+                "name": "Smithsonian Channel™",
+                "imageUrl": null,
+                "proof": "Owned by **Paramount Global**.\n\n**Paramount Global** stated, 'We stand with the people of Israel and the global Jewish community.\"",
+                "priority": false,
+                "createdAt": "2023-11-19T23:46:44.031Z",
+                "updatedAt": "2023-11-19T23:46:44.031Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://variety.com/2023/film/news/hollywood-studios-israel-palestine-hamas-attacks-1235753540/",
+                "tags": null,
+                "filename": "Smithsonian.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 344,
+            "attributes": {
+                "name": "Snack a Jacks",
+                "imageUrl": "https://www.snackajacks.nl/prod/s3fs-public/off_pack_purple_background_0.png",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:01:18.164Z",
+                "updatedAt": "2023-11-14T18:06:23.357Z",
+                "publishedAt": "2023-11-11T14:02:27.922Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "snack-a-tacks.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 450,
+            "attributes": {
+                "name": "Sobe",
+                "imageUrl": "https://cdn.worldvectorlogo.com/logos/sobe.svg",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:07:33.913Z",
+                "updatedAt": "2023-11-14T18:06:51.701Z",
+                "publishedAt": "2023-11-11T15:07:34.592Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "sobe.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 451,
+            "attributes": {
+                "name": "SodaStream",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Soda_Stream_Logo.svg/2560px-Soda_Stream_Logo.svg.png",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:08:11.970Z",
+                "updatedAt": "2023-11-14T18:07:08.608Z",
+                "publishedAt": "2023-11-11T15:08:12.640Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "sodastream.webp",
+                "alternative": {
+                    "data": {
+                        "id": 24,
+                        "attributes": {
+                            "name": "Kızılay",
+                            "imageUrl": "https://www.kizilayicecek.com.tr/media/5q4por04/kizilay_i%C3%A7ecek_logo.png",
+                            "createdAt": "2023-11-12T11:05:38.236Z",
+                            "updatedAt": "2023-11-14T19:56:07.340Z",
+                            "publishedAt": "2023-11-12T11:05:38.885Z",
+                            "filename": "kizilay.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 452,
+            "attributes": {
+                "name": "Soulboost",
+                "imageUrl": "https://mma.prnewswire.com/media/1810307/soulboost_horizontal_Logo.jpg?p=twitter",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:09:19.105Z",
+                "updatedAt": "2023-11-14T18:07:20.933Z",
+                "publishedAt": "2023-11-11T15:09:19.919Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "soulboost.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 57,
+            "attributes": {
+                "name": "Sour Patch Kids",
+                "imageUrl": "https://i.pinimg.com/originals/c5/ed/93/c5ed936031d0577e7e565902b841da68.png",
+                "proof": "Owned by **Mondelez International, Inc.**\n\n**Mondelez International Inc.** on Nov. 10(2020) announced a seed investment in Torr FoodTech, an early stage company based in Israel that has developed proprietary technology Mondelez said “brings real, simple ingredients together to offer multi-textural, sensorial experiences.\"",
+                "priority": false,
+                "createdAt": "2023-11-06T19:00:26.899Z",
+                "updatedAt": "2023-11-14T18:07:33.613Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.foodbusinessnews.net/articles/17261-mondelez-invests-in-israel-food-tech-startup",
+                "tags": null,
+                "filename": "sourpatch-kids.webp",
+                "alternative": {
+                    "data": {
+                        "id": 15,
+                        "attributes": {
+                            "name": "Ülker",
+                            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/%C3%9Clker_logo.svg/2560px-%C3%9Clker_logo.svg.png",
+                            "createdAt": "2023-11-08T13:13:41.584Z",
+                            "updatedAt": "2023-11-14T19:58:19.444Z",
+                            "publishedAt": "2023-11-08T13:13:42.946Z",
+                            "filename": "ulker.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 455,
+            "attributes": {
+                "name": "Stacy's",
+                "imageUrl": "https://m.media-amazon.com/images/S/abs-image-upload-na/f/AmazonStores/ATVPDKIKX0DER/97b94b04168436ab9a804d6070f99795.w3000.h3000.jpg",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:11:15.733Z",
+                "updatedAt": "2023-11-14T18:08:18.117Z",
+                "publishedAt": "2023-11-11T15:11:16.492Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "stacys.webp",
+                "alternative": {
+                    "data": {
+                        "id": 16,
+                        "attributes": {
+                            "name": "Croky",
+                            "imageUrl": "https://www.makeitfly.group/sites/default/files/styles/inline_image/public/2023-05/logo%20%282%29.png?itok=Lhxib8Op",
+                            "createdAt": "2023-11-08T13:20:25.221Z",
+                            "updatedAt": "2023-11-14T19:54:34.498Z",
+                            "publishedAt": "2023-11-08T13:20:27.024Z",
+                            "filename": "croky.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 216,
+            "attributes": {
+                "name": "Standard Life",
+                "imageUrl": "https://www.lincs-chamber.co.uk/wp-content/uploads/2018/02/Standard-Life-Assurance-logo.png",
+                "proof": "**Standard Life** invests in companies selling arms and military equipment to Israel that have been used in the oppression of Palestinians",
+                "priority": false,
+                "createdAt": "2023-11-06T23:54:18.958Z",
+                "updatedAt": "2023-11-14T18:08:37.976Z",
+                "publishedAt": "2023-11-06T23:54:19.899Z",
+                "proofUrl": "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments",
+                "tags": null,
+                "filename": "standard-life.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 426,
+            "attributes": {
+                "name": "Starboard Cruise Services",
+                "imageUrl": "https://www.bwconfidential.com/wp-content/uploads/2023/03/logo_starboard_final.png",
+                "proof": "**Starboard Cruise Services** is owned by **LVMH**.\n\nBernard Arnault, the chairman and **CEO** of **LMVH** Moet Hennessy-Louis Vuitton, and the world’s richest man according to Forbes, has **invested** in cybersecurity firm, **Wiz**, the **Israeli** maker of cloud security solutions for enterprises.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:54:31.564Z",
+                "updatedAt": "2023-11-14T18:09:09.799Z",
+                "publishedAt": "2023-11-11T14:54:32.562Z",
+                "proofUrl": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+                "tags": null,
+                "filename": "starboard-cruise-services.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 457,
+            "attributes": {
+                "name": "Starry",
+                "imageUrl": "https://mma.prnewswire.com/media/1981197/STARRY_Lemon_Lime__Logo.jpg?p=twitter",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:11:53.278Z",
+                "updatedAt": "2023-11-14T18:09:46.878Z",
+                "publishedAt": "2023-11-11T15:11:53.995Z",
+                "proofUrl": " https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "starry.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 373,
+            "attributes": {
+                "name": "Stella McCartney",
+                "imageUrl": "https://cdn.cookielaw.org/logos/db3cf2f9-09f6-47ab-b58f-c5e38cd9dd46/6a6a57b4-fe7b-44c6-afe5-6fc7ba649017/f2ad86fb-014b-47ef-ae6d-e1121cb87910/STELLA-Logo_updated_SMC_GREEN.png",
+                "proof": "**Stella McCartney** is owned by **LVMH**.\n\nBernard Arnault, the chairman and **CEO** of **LMVH** Moet Hennessy-Louis Vuitton, and the world’s richest man according to Forbes, has **invested** in cybersecurity firm, **Wiz**, the **Israeli** maker of cloud security solutions for enterprises.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:19:43.642Z",
+                "updatedAt": "2023-11-14T18:10:04.823Z",
+                "publishedAt": "2023-11-11T14:19:44.598Z",
+                "proofUrl": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+                "tags": null,
+                "filename": "stella.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 610,
+            "attributes": {
+                "name": "STMNT STATEMENT GROOMING GOODS",
+                "imageUrl": null,
+                "proof": "Owned by **Henkel**.\n\n**Henkel** invests in Israeli technology namely by investing in Feelit. A company with its roots in Israël.",
+                "priority": false,
+                "createdAt": "2023-11-18T22:22:45.826Z",
+                "updatedAt": "2023-11-19T23:46:54.143Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://www.henkel.com/press-and-media/press-releases-and-kits/2021-01-07-henkel-invests-in-technology-start-up-feelit-1141594",
+                "tags": null,
+                "filename": "stmnt.webp",
+                "alternative": {
+                    "data": {
+                        "id": 33,
+                        "attributes": {
+                            "name": "Duru",
+                            "imageUrl": "https://seeklogo.com/images/D/duru-logo-9FC719ACD3-seeklogo.com.png",
+                            "createdAt": "2023-11-12T12:05:11.667Z",
+                            "updatedAt": "2023-11-14T19:54:48.859Z",
+                            "publishedAt": "2023-11-12T12:05:12.560Z",
+                            "filename": "duru.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 531,
+            "attributes": {
+                "name": "Strepsils",
+                "imageUrl": null,
+                "proof": "Owned by **Reckitt Benckiser**\n\n**Reckitt Benckiser** signs a cooperation agreement with the Israel Innovation Authority.",
+                "priority": false,
+                "createdAt": "2023-11-14T15:19:40.492Z",
+                "updatedAt": "2023-11-14T21:26:34.146Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://en.globes.co.il/en/article-reckitt-benckiser-seeks-investments-in-israeli-cos-1001262747",
+                "tags": null,
+                "filename": "strepsils.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 558,
+            "attributes": {
+                "name": "Stride",
+                "imageUrl": null,
+                "proof": "Owned by **Mondelez International, Inc.**\n\n**Mondelez International Inc.** on Nov. 10(2020) announced a seed investment in Torr FoodTech, an early stage company based in Israel that has developed proprietary technology Mondelez said “brings real, simple ingredients together to offer multi-textural, sensorial experiences.\"",
+                "priority": false,
+                "createdAt": "2023-11-16T19:43:08.726Z",
+                "updatedAt": "2023-11-18T14:47:21.875Z",
+                "publishedAt": "2023-11-18T15:16:54.661Z",
+                "proofUrl": "https://www.foodbusinessnews.net/articles/17261-mondelez-invests-in-israel-food-tech-startup",
+                "tags": null,
+                "filename": "stride.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 100,
+            "attributes": {
+                "name": "StyleNanda",
+                "imageUrl": "https://tukuz.com/wp-content/uploads/2020/05/3ce-stylenanda-logo-vector.png",
+                "proof": "**StyleNanda** is owned By **L' Oreal**.\n\n**34.70%** of L’Oreal is owned by Mrs. Francoise **Bettencourt** Meyers and her family. **20.1%** of L’ Oreal is owned by **Nestle**. Nestle began investing in Israel in 1995 by buying 10% of Israeli food maker **Osem** Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a **53.8 percent stake** in Osem Swiss food giant Nestle will set up a global research and development center for snack foods next year in Sderot, a town in Israel's Negev desert, the Maariv.",
+                "priority": false,
+                "createdAt": "2023-11-06T20:30:58.803Z",
+                "updatedAt": "2024-01-02T21:23:00.743Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.loreal-finance.com/eng/share-ownership",
+                "tags": null,
+                "filename": "stylenanda.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 459,
+            "attributes": {
+                "name": "SunChips",
+                "imageUrl": "https://getvectorlogo.com/wp-content/uploads/2020/04/sunchips-vector-logo.png",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:12:46.660Z",
+                "updatedAt": "2023-11-14T18:10:33.431Z",
+                "publishedAt": "2023-11-11T15:12:47.300Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "sunchips.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 245,
+            "attributes": {
+                "name": "Sunlight",
+                "imageUrl": "https://www.careline.be/sk-eu/content/dam/brands/sunlight/indonesia/1928579-sunlight-logo.jpg.rendition.1960.1960.jpg",
+                "proof": "Owned by **Unilever**.\n\n**Sunlight** and Ben & Jerry's are owned by **Unilever**. When Ben & Jerry's decided to stop selling its products in Israel, **Unilever** sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+                "priority": false,
+                "createdAt": "2023-11-08T22:58:48.541Z",
+                "updatedAt": "2023-11-14T18:10:54.049Z",
+                "publishedAt": "2023-11-08T22:58:50.003Z",
+                "proofUrl": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+                "tags": null,
+                "filename": "sunlight.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 43,
+            "attributes": {
+                "name": "Sunsilk",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sunsilk_%282022%29.png",
+                "proof": "Owned by **Unilever**.\n\n**Sunsilk** and Ben & Jerry's are owned by **Unilever**. When Ben & Jerry's decided to stop selling its products in Israel, **Unilever** sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+                "priority": false,
+                "createdAt": "2023-11-06T18:44:14.162Z",
+                "updatedAt": "2023-11-14T18:11:22.681Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+                "tags": null,
+                "filename": "sunsilk.webp",
+                "alternative": {
+                    "data": {
+                        "id": 33,
+                        "attributes": {
+                            "name": "Duru",
+                            "imageUrl": "https://seeklogo.com/images/D/duru-logo-9FC719ACD3-seeklogo.com.png",
+                            "createdAt": "2023-11-12T12:05:11.667Z",
+                            "updatedAt": "2023-11-14T19:54:48.859Z",
+                            "publishedAt": "2023-11-12T12:05:12.560Z",
+                            "filename": "duru.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 329,
+            "attributes": {
+                "name": "Supradyn ",
+                "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/3/30/Supradyn_logo.gif/revision/latest/scale-to-width-down/200?cb=20151004164527",
+                "proof": "Owned by **Bayer**.\n\nThere is a partnership between **Bayer** and the Israeli Innovation Authority. The Israel Innovation Authority (IIA) is the support arm of the Israeli government, charged with fostering the development of industrial research and development in the State of Israel.",
+                "priority": false,
+                "createdAt": "2023-11-10T23:35:32.974Z",
+                "updatedAt": "2023-11-14T18:11:35.130Z",
+                "publishedAt": "2023-11-10T23:45:51.158Z",
+                "proofUrl": "https://www.bayer.com/en/il/climate-tech-program",
+                "tags": null,
+                "filename": "supradyn.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 434,
+            "attributes": {
+                "name": "Suzi Wan",
+                "imageUrl": "https://www.quellesauce.com/wp-content/uploads/2020/10/brand-suziwan-324x324.png",
+                "proof": "Owned by **Mars Inc**.\n\n**Mars** will support Israeli start-ups and the formation of companies, and will work together with leading Israeli academic institutions, such as the Hebrew University, the Weizmann Institute, the Technion, Migall and Tel Hai College, among others, to further Foodtech innovations.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:56:18.833Z",
+                "updatedAt": "2023-11-21T00:43:52.347Z",
+                "publishedAt": "2023-11-11T14:56:19.580Z",
+                "proofUrl": "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+                "tags": null,
+                "filename": "suzi-wan.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 508,
+            "attributes": {
+                "name": "Sweet Earth",
+                "imageUrl": "https://goodnes.com/sites/g/files/jgfbjl131/files/gdn_brand/Logo_Light_0.svg",
+                "proof": "Owned by **Nestlé**.\n\n**Nestlé** is 100% owned by swiss. **Nestlé** began investing in Israel in 1995 by buying 10% of Israeli food maker Osem Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a 53.8 percent stake in Osem Swiss food giant **Nestlé** will set up a global research and development centre for snack foods in Sderot, a town in Israel's Negev desert, the Maariv newspaper reported on Sunday. ",
+                "priority": false,
+                "createdAt": "2023-11-11T22:59:14.439Z",
+                "updatedAt": "2023-11-14T18:12:08.718Z",
+                "publishedAt": "2023-11-11T22:59:15.322Z",
+                "proofUrl": "https://www.just-food.com/news/israel-nestle-to-up-stake-in-osem/?cf-view",
+                "tags": null,
+                "filename": "sweet-earth.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 83,
+            "attributes": {
+                "name": "Swiffer",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ef/Swiffer_logo.svg",
+                "proof": "Owned by **Procter and Gamble**.\n\n**Procter and Gamble** opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "priority": false,
+                "createdAt": "2023-11-06T19:51:05.416Z",
+                "updatedAt": "2023-11-14T18:12:20.885Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=766ad3d811f5",
+                "tags": null,
+                "filename": "swiffer.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 514,
+            "attributes": {
+                "name": "Swoodoo",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Swoodoo-logo.png",
+                "proof": "Owned By **Kayak**, which is a sister company of **Booking.com**.\n\n**Booking.com** allows listings in occupied Palestinian territory, and after announcing it will remove 200 of such listings, it reversed its decision, showing it is knowingly complicit in Israels occupation.",
+                "priority": false,
+                "createdAt": "2023-11-12T16:41:32.673Z",
+                "updatedAt": "2023-11-14T18:12:33.847Z",
+                "publishedAt": "2023-11-12T16:41:40.819Z",
+                "proofUrl": "https://www.aljazeera.com/news/2022/10/5/is-booking-com-reversal-palestine-corporate-hypocrisy",
+                "tags": null,
+                "filename": "swoodoo.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 266,
+            "attributes": {
+                "name": "Syoss",
+                "imageUrl": "https://www.henkel.be/resource/image/35476/1x1/1000/1000/6095ce588d11650ef84c212a64e7566f/51ED2150AC7FB0DE697FF2F1C733F682/syoss-logo.webp",
+                "proof": "Owned by **Henkel**.\n\n**Henkel** invests in Israeli technology namely by investing in Feelit. A company with its roots in Israël.",
+                "priority": false,
+                "createdAt": "2023-11-09T18:48:21.655Z",
+                "updatedAt": "2023-11-14T18:12:47.806Z",
+                "publishedAt": "2023-11-09T23:41:04.206Z",
+                "proofUrl": "https://www.henkel.com/press-and-media/press-releases-and-kits/2021-01-07-henkel-invests-in-technology-start-up-feelit-1141594",
+                "tags": null,
+                "filename": "syoss.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 239,
+            "attributes": {
+                "name": "Taboola",
+                "imageUrl": "https://www.proggio.com/wp-content/uploads/2019/01/feat-Taboola.png",
+                "proof": "**Taboola**'s CEO, Adam Singolda, is a staunch zionist who tweets about Palestine supports being ISIS and terrorist sympathisers.",
+                "priority": false,
+                "createdAt": "2023-11-07T13:23:19.107Z",
+                "updatedAt": "2023-11-14T18:13:00.870Z",
+                "publishedAt": "2023-11-07T13:23:19.992Z",
+                "proofUrl": "https://twitter.com/AdamSingolda",
+                "tags": null,
+                "filename": "taboola.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 112,
+            "attributes": {
+                "name": "Tag Heuer",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TAG_Heuer_Logo.svg/2366px-TAG_Heuer_Logo.svg.png",
+                "proof": "Tag Heuer is owned by **LVMH**.\n\nBernard Arnault, the chairman and **CEO** of **LMVH** Moet Hennessy-Louis Vuitton, and the world’s richest man according to Forbes, has **invested** in cybersecurity firm, **Wiz**, the **Israeli** maker of cloud security solutions for enterprises.",
+                "priority": false,
+                "createdAt": "2023-11-06T21:02:17.224Z",
+                "updatedAt": "2023-11-14T18:13:26.958Z",
+                "publishedAt": "2023-11-06T21:02:19.705Z",
+                "proofUrl": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+                "tags": null,
+                "filename": "tag_heuer.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 604,
+            "attributes": {
+                "name": " TAKAMI",
+                "imageUrl": null,
+                "proof": "**TAKAMI** is owned by **L'Oreal.**\n\n**34.70%** of L’Oreal is owned by Mrs. Francoise Bettencourt Meyers and her family. **20.1%** of L’ Oreal is owned by **Nestle**. Nestle began **investing** in **Israel** in 1995 by buying 10% of Israeli food maker **Osem** Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a 53.8 percent stake in Osem Swiss food giant Nestle will set up a global research and development center for snack foods next year in Sderot, a town in Israel's Negev desert, the Maariv.",
+                "priority": false,
+                "createdAt": "2023-11-18T22:16:54.279Z",
+                "updatedAt": "2024-01-02T21:23:06.865Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://www.loreal-finance.com/eng/share-ownership",
+                "tags": null,
+                "filename": "takami.webp",
+                "alternative": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "Lush",
+                            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Lush_Logo.png",
+                            "createdAt": "2023-11-12T15:16:38.196Z",
+                            "updatedAt": "2023-11-14T19:56:36.791Z",
+                            "publishedAt": "2023-11-12T15:16:39.631Z",
+                            "filename": "lush.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 11,
+            "attributes": {
+                "name": "Tampax",
+                "imageUrl": "https://logowik.com/content/uploads/images/tampax3061.jpg",
+                "proof": "Owned by **Procter and Gamble**.\n\n**Procter and Gamble** opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "priority": false,
+                "createdAt": "2023-11-06T17:40:03.219Z",
+                "updatedAt": "2023-11-14T18:13:40.511Z",
+                "publishedAt": "2023-11-06T20:52:25.759Z",
+                "proofUrl": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=766ad3d811f5",
+                "tags": null,
+                "filename": "tampax.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 560,
+            "attributes": {
+                "name": "Tang",
+                "imageUrl": null,
+                "proof": "Owned by **Mondelez International, Inc.**\n\n**Mondelez International Inc.** on Nov. 10(2020) announced a seed investment in Torr FoodTech, an early stage company based in Israel that has developed proprietary technology Mondelez said “brings real, simple ingredients together to offer multi-textural, sensorial experiences.\"",
+                "priority": false,
+                "createdAt": "2023-11-16T19:43:57.267Z",
+                "updatedAt": "2023-11-18T14:44:51.479Z",
+                "publishedAt": "2023-11-18T15:16:54.661Z",
+                "proofUrl": "https://www.foodbusinessnews.net/articles/17261-mondelez-invests-in-israel-food-tech-startup",
+                "tags": null,
+                "filename": "tang.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 436,
+            "attributes": {
+                "name": "Tasty Bite",
+                "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/3/3c/Tasty_Bite.png/revision/latest?cb=20200620190621",
+                "proof": "Owned by **Mars Inc**.\n\n**Mars** will support Israeli start-ups and the formation of companies, and will work together with leading Israeli academic institutions, such as the Hebrew University, the Weizmann Institute, the Technion, Migall and Tel Hai College, among others, to further Foodtech innovations.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:57:03.905Z",
+                "updatedAt": "2023-11-21T00:43:43.053Z",
+                "publishedAt": "2023-11-11T14:57:04.756Z",
+                "proofUrl": "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+                "tags": null,
+                "filename": "tasty-bite.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 561,
+            "attributes": {
+                "name": "Tate's Bake Shop",
+                "imageUrl": null,
+                "proof": "Owned by **Mondelez International, Inc.**\n\n**Mondelez International Inc.** on Nov. 10(2020) announced a seed investment in Torr FoodTech, an early stage company based in Israel that has developed proprietary technology Mondelez said “brings real, simple ingredients together to offer multi-textural, sensorial experiences.\"",
+                "priority": false,
+                "createdAt": "2023-11-16T19:44:36.405Z",
+                "updatedAt": "2023-11-18T14:44:42.768Z",
+                "publishedAt": "2023-11-18T15:16:54.661Z",
+                "proofUrl": "https://www.foodbusinessnews.net/articles/17261-mondelez-invests-in-israel-food-tech-startup",
+                "tags": null,
+                "filename": "tates-bake-shop.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 462,
+            "attributes": {
+                "name": "Tazo",
+                "imageUrl": "https://seekvectorlogo.net/wp-content/uploads/2018/08/tazo-vector-logo.png",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:13:27.917Z",
+                "updatedAt": "2023-11-14T18:14:08.618Z",
+                "publishedAt": "2023-11-11T15:13:28.622Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "tazo.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 485,
+            "attributes": {
+                "name": "Ted Baker",
+                "imageUrl": "https://media.tedbaker.com/content/design_system/icons/tedbaker_icon_Ted_Baker.svg",
+                "proof": "**Ted Baker Partnership**\n\n**Ted Baker** has partnered with **Delta Galil Industries**, Ltd. (DELT/Tel Aviv Stock Exchange), the global manufacturer and marketer of branded and private label apparel products for men, women, and children. **Delta Galil Industries** is an **Israeli** textile firm headquartered in **Tel Aviv**, with plants around the world.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:57:25.941Z",
+                "updatedAt": "2023-11-14T18:14:23.189Z",
+                "publishedAt": "2023-11-11T15:57:26.807Z",
+                "proofUrl": "https://deltagalil.com/brands/licensed-brands/default.aspx",
+                "tags": null,
+                "filename": "ted-baker.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "start": 500,
+            "limit": 50,
+            "total": 620
+        }
+    }
+}

@@ -1,0 +1,402 @@
+
+{
+    "data": [
+        {
+            "id": 481,
+            "attributes": {
+                "name": "Wilson",
+                "imageUrl": "https://s29.q4cdn.com/481127684/files/images/licensee_brands/wilson_logo.png",
+                "proof": "**Wilson Partnership**\n\n**Wilson** has partnered with **Delta Galil Industries**, Ltd. (DELT/Tel Aviv Stock Exchange), the global manufacturer and marketer of branded and private label apparel products for men, women, and children. **Delta Galil Industries** is an **Israeli** textile firm headquartered in **Tel Aviv**, with plants around the world.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:55:04.428Z",
+                "updatedAt": "2023-11-14T18:25:22.478Z",
+                "publishedAt": "2023-11-11T15:55:05.352Z",
+                "proofUrl": "https://deltagalil.com/brands/licensed-brands/default.aspx",
+                "tags": null,
+                "filename": "wilson.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 472,
+            "attributes": {
+                "name": "Winterfresh",
+                "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/3/38/Winterfresh.svg/revision/latest/scale-to-width-down/300?cb=20221025103300",
+                "proof": "Owned by **Mars Inc**.\n\n**Mars** will support Israeli start-ups and the formation of companies, and will work together with leading Israeli academic institutions, such as the Hebrew University, the Weizmann Institute, the Technion, Migall and Tel Hai College, among others, to further Foodtech innovations.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:18:47.774Z",
+                "updatedAt": "2023-11-21T00:43:07.872Z",
+                "publishedAt": "2023-11-11T15:18:48.497Z",
+                "proofUrl": "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+                "tags": null,
+                "filename": "winterfresh.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 264,
+            "attributes": {
+                "name": "Witte Reus",
+                "imageUrl": "https://www.henkel.nl/resource/image/655634/1x1/1000/1000/c0f89ca2ad37af0baa1c4c5c6302d5a8/FE99D799890B997AA617D94B0120C375/witte-reuss-logo-png.webp",
+                "proof": "Owned by **Henkel**.\n\n**Henkel** invests in Israeli technology namely by investing in Feelit. A company with its roots in Israël.",
+                "priority": false,
+                "createdAt": "2023-11-09T18:46:49.498Z",
+                "updatedAt": "2023-11-14T18:25:45.910Z",
+                "publishedAt": "2023-11-09T23:36:18.249Z",
+                "proofUrl": "https://www.henkel.com/press-and-media/press-releases-and-kits/2021-01-07-henkel-invests-in-technology-start-up-feelit-1141594",
+                "tags": null,
+                "filename": "witte-reus.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 236,
+            "attributes": {
+                "name": "Wix",
+                "imageUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968762.png",
+                "proof": "CEO Avishai Abrahami is a zionist who supports the IDF.",
+                "priority": false,
+                "createdAt": "2023-11-07T13:19:28.074Z",
+                "updatedAt": "2023-11-21T00:26:00.296Z",
+                "publishedAt": "2023-11-07T13:19:28.976Z",
+                "proofUrl": "https://twitter.com/avishai_ab",
+                "tags": null,
+                "filename": "wix.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 482,
+            "attributes": {
+                "name": "Wolford",
+                "imageUrl": "https://s29.q4cdn.com/481127684/files/images/licensee_brands/wolford_logo.png",
+                "proof": "**Wolford Partnership**\n\n**Wolford** has partnered with **Delta Galil Industries**, Ltd. (DELT/Tel Aviv Stock Exchange), the global manufacturer and marketer of branded and private label apparel products for men, women, and children. **Delta Galil Industries** is an **Israeli** textile firm headquartered in **Tel Aviv**, with plants around the world.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:55:41.435Z",
+                "updatedAt": "2023-11-14T18:26:22.095Z",
+                "publishedAt": "2023-11-11T15:55:42.918Z",
+                "proofUrl": "https://deltagalil.com/brands/licensed-brands/default.aspx",
+                "tags": null,
+                "filename": "wolford.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 534,
+            "attributes": {
+                "name": "Woolite",
+                "imageUrl": null,
+                "proof": "Owned by **Reckitt Benckiser**\n\n**Reckitt Benckiser** signs a cooperation agreement with the Israel Innovation Authority.",
+                "priority": false,
+                "createdAt": "2023-11-14T15:23:40.602Z",
+                "updatedAt": "2023-11-14T21:25:31.014Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://en.globes.co.il/en/article-reckitt-benckiser-seeks-investments-in-israeli-cos-1001262747",
+                "tags": null,
+                "filename": "woolite.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 471,
+            "attributes": {
+                "name": "Wrigley's Extra",
+                "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/3/36/Wrigley%27s_Extra_gum_brands_2015.png/revision/latest?cb=20150129144855",
+                "proof": "Owned by **Mars Inc**.\n\n**Mars** will support Israeli start-ups and the formation of companies, and will work together with leading Israeli academic institutions, such as the Hebrew University, the Weizmann Institute, the Technion, Migall and Tel Hai College, among others, to further Foodtech innovations.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:18:01.466Z",
+                "updatedAt": "2023-11-21T00:43:02.646Z",
+                "publishedAt": "2023-11-11T15:18:02.266Z",
+                "proofUrl": "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+                "tags": null,
+                "filename": "wrigleys-extra.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 473,
+            "attributes": {
+                "name": "Wrigley's Spearmint",
+                "imageUrl": "https://1000logos.net/wp-content/uploads/2021/05/Wrigleys-Spearmint-logo.png",
+                "proof": "Owned by **Mars Inc**.\n\n**Mars** will support Israeli start-ups and the formation of companies, and will work together with leading Israeli academic institutions, such as the Hebrew University, the Weizmann Institute, the Technion, Migall and Tel Hai College, among others, to further Foodtech innovations.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:19:15.123Z",
+                "updatedAt": "2023-11-21T00:42:55.047Z",
+                "publishedAt": "2023-11-11T15:19:15.862Z",
+                "proofUrl": "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+                "tags": null,
+                "filename": "wrigleys-spearmint.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 464,
+            "attributes": {
+                "name": "Yachak",
+                "imageUrl": "https://mma.prnewswire.com/media/1657381/Yachak_Logo.jpg?p=twitter",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T15:13:56.915Z",
+                "updatedAt": "2023-11-14T18:27:06.381Z",
+                "publishedAt": "2023-11-11T15:13:57.581Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "yachak.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 333,
+            "attributes": {
+                "name": "Yasminelle",
+                "imageUrl": "https://static.shop-apotheke.com/brand-logos/yasminelle.png",
+                "proof": "Owned by **Bayer**.\n\nThere is a partnership between **Bayer** and the Israeli Innovation Authority. The Israel Innovation Authority (IIA) is the support arm of the Israeli government, charged with fostering the development of industrial research and development in the State of Israel.",
+                "priority": false,
+                "createdAt": "2023-11-10T23:42:21.080Z",
+                "updatedAt": "2023-11-14T18:27:38.178Z",
+                "publishedAt": "2023-11-10T23:45:51.158Z",
+                "proofUrl": "https://www.bayer.com/en/il/climate-tech-program",
+                "tags": null,
+                "filename": "yasminelle.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 356,
+            "attributes": {
+                "name": "Yedigün",
+                "imageUrl": "https://yedigun.com.tr/ResourcePackages/Bootstrap/assets/dist/images/header-logo.png",
+                "proof": "Owned by **PepsiCo**.\n\n**PepsiCo** bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:08:37.564Z",
+                "updatedAt": "2023-11-14T18:27:49.993Z",
+                "publishedAt": "2023-11-11T14:08:38.356Z",
+                "proofUrl": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg",
+                "tags": null,
+                "filename": "yedigun.webp",
+                "alternative": {
+                    "data": {
+                        "id": 40,
+                        "attributes": {
+                            "name": "Meysu",
+                            "imageUrl": "https://seeklogo.com/images/M/meysu-logo-96F1807DD1-seeklogo.com.png",
+                            "createdAt": "2023-11-12T22:53:32.365Z",
+                            "updatedAt": "2023-11-14T19:56:46.949Z",
+                            "publishedAt": "2023-11-12T22:53:35.564Z",
+                            "filename": "meysu.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 603,
+            "attributes": {
+                "name": "Youth to the people",
+                "imageUrl": null,
+                "proof": "**Youth to the people** is owned by **L'Oreal.**\n\n**34.70%** of L’Oreal is owned by Mrs. Francoise Bettencourt Meyers and her family. **20.1%** of L’ Oreal is owned by **Nestle**. Nestle began **investing** in **Israel** in 1995 by buying 10% of Israeli food maker **Osem** Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a 53.8 percent stake in Osem Swiss food giant Nestle will set up a global research and development center for snack foods next year in Sderot, a town in Israel's Negev desert, the Maariv.",
+                "priority": false,
+                "createdAt": "2023-11-18T22:16:30.783Z",
+                "updatedAt": "2024-01-02T21:23:41.088Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://www.loreal-finance.com/eng/share-ownership",
+                "tags": null,
+                "filename": "youthtopeople.webp",
+                "alternative": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "Lush",
+                            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Lush_Logo.png",
+                            "createdAt": "2023-11-12T15:16:38.196Z",
+                            "updatedAt": "2023-11-14T19:56:36.791Z",
+                            "publishedAt": "2023-11-12T15:16:39.631Z",
+                            "filename": "lush.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 542,
+            "attributes": {
+                "name": "Youtube",
+                "imageUrl": null,
+                "proof": "**Youtube** is owned by **Google**\n\nAmazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows for further surveillance of and **unlawful data collection** on Palestinians, and facilitates expansion of Israel’s **illegal settlements** on Palestinian land.",
+                "priority": false,
+                "createdAt": "2023-11-16T19:22:53.483Z",
+                "updatedAt": "2023-11-18T14:51:06.984Z",
+                "publishedAt": "2023-11-18T15:16:54.661Z",
+                "proofUrl": "https://www.theguardian.com/commentisfree/2021/oct/12/google-amazon-workers-condemn-project-nimbus-israeli-military-contract",
+                "tags": null,
+                "filename": "youtube.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 599,
+            "attributes": {
+                "name": "Yuesai",
+                "imageUrl": null,
+                "proof": "**Yuesai** is owned by **L'Oreal.**\n\n**34.70%** of L’Oreal is owned by Mrs. Francoise Bettencourt Meyers and her family. **20.1%** of L’ Oreal is owned by **Nestle**. Nestle began **investing** in **Israel** in 1995 by buying 10% of Israeli food maker **Osem** Investments, increasing its ownership to 50.1% two years later giving it the controlling share and now owns a 53.8 percent stake in Osem Swiss food giant Nestle will set up a global research and development center for snack foods next year in Sderot, a town in Israel's Negev desert, the Maariv.",
+                "priority": false,
+                "createdAt": "2023-11-18T22:14:10.255Z",
+                "updatedAt": "2024-01-02T21:23:44.456Z",
+                "publishedAt": "2023-11-20T00:14:12.269Z",
+                "proofUrl": "https://www.loreal-finance.com/eng/share-ownership",
+                "tags": null,
+                "filename": "yuesai.webp",
+                "alternative": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "Lush",
+                            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Lush_Logo.png",
+                            "createdAt": "2023-11-12T15:16:38.196Z",
+                            "updatedAt": "2023-11-14T19:56:36.791Z",
+                            "publishedAt": "2023-11-12T15:16:39.631Z",
+                            "filename": "lush.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 180,
+            "attributes": {
+                "name": "Yum! Brands",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Yum%21_Brands_logo.svg",
+                "proof": "**Yum! Brands** is an investor in Israeli start ups.",
+                "priority": false,
+                "createdAt": "2023-11-06T22:37:50.389Z",
+                "updatedAt": "2023-11-14T18:28:44.653Z",
+                "publishedAt": "2023-11-06T22:37:51.374Z",
+                "proofUrl": "https://www.calcalistech.com/ctech/articles/0,7340,L-3901254,00.html",
+                "tags": null,
+                "filename": "yum.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 261,
+            "attributes": {
+                "name": "YumYum",
+                "imageUrl": "https://www.ajinomoto.com/cms_wp_ajnmt_global/wp-content/uploads/brands/png/img_brand_YumYum.png",
+                "proof": "Owned by **Ajinomoto Group**.\n\n**Ajinomoto Co.**, announced a partnership with Tel Aviv, Israel-based SuperMeat, a developer of poultry meat produced from animal cells.",
+                "priority": false,
+                "createdAt": "2023-11-09T18:32:22.852Z",
+                "updatedAt": "2023-11-14T18:28:56.561Z",
+                "publishedAt": "2023-11-09T23:44:09.048Z",
+                "proofUrl": "https://www.meatpoultry.com/articles/26314-ajinomoto-enters-joint-venture-with-cell-based-meat-company",
+                "tags": null,
+                "filename": "yumyum.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 399,
+            "attributes": {
+                "name": "Zenith",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Zenith_logo.svg/2560px-Zenith_logo.svg.png",
+                "proof": "**Zenith** is owned by **LVMH**.\n\nBernard Arnault, the chairman and **CEO** of **LMVH** Moet Hennessy-Louis Vuitton, and the world’s richest man according to Forbes, has **invested** in cybersecurity firm, **Wiz**, the **Israeli** maker of cloud security solutions for enterprises.",
+                "priority": false,
+                "createdAt": "2023-11-11T14:39:58.837Z",
+                "updatedAt": "2023-11-14T18:29:29.663Z",
+                "publishedAt": "2023-11-11T14:40:04.539Z",
+                "proofUrl": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+                "tags": null,
+                "filename": "zenith.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 299,
+            "attributes": {
+                "name": "Zevo",
+                "imageUrl": "https://logowik.com/content/uploads/images/zevo1964.jpg",
+                "proof": "Owned by **Procter and Gamble**.\n\n**Procter and Gamble** opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "priority": false,
+                "createdAt": "2023-11-10T17:10:38.134Z",
+                "updatedAt": "2023-11-14T18:29:43.632Z",
+                "publishedAt": "2023-11-10T22:48:05.579Z",
+                "proofUrl": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=766ad3d811f5",
+                "tags": null,
+                "filename": "zevo.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 246,
+            "attributes": {
+                "name": "Zwitsal",
+                "imageUrl": "https://cdn.sanity.io/images/92ui5egz/production/18470457585f2a0423231ade79bb21745d0c0608-1080x1080.jpg?w=600&h=600&fit=crop&auto=format",
+                "proof": "Owned by **Unilever**.\n\n**Zwitsal** and Ben & Jerry's are owned by **Unilever**. When Ben & Jerry's decided to stop selling its products in Israel, **Unilever** sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+                "priority": false,
+                "createdAt": "2023-11-08T23:00:16.771Z",
+                "updatedAt": "2023-11-14T18:29:55.773Z",
+                "publishedAt": "2023-11-08T23:00:17.662Z",
+                "proofUrl": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+                "tags": null,
+                "filename": "zwitsal.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": 306,
+            "attributes": {
+                "name": "ZzzQuil",
+                "imageUrl": "https://seeklogo.com/images/Z/zzzquil-logo-D0BD9E95A7-seeklogo.com.png",
+                "proof": "Owned by **Procter and Gamble**.\n\n**Procter and Gamble** opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "priority": false,
+                "createdAt": "2023-11-10T17:22:29.064Z",
+                "updatedAt": "2023-11-14T18:30:18.617Z",
+                "publishedAt": "2023-11-10T22:48:12.672Z",
+                "proofUrl": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=766ad3d811f5",
+                "tags": null,
+                "filename": "zzzquil.webp",
+                "alternative": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "start": 600,
+            "limit": 50,
+            "total": 620
+        }
+    }
+}
