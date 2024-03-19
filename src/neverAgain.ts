@@ -1,51 +1,50 @@
 import Mark from 'mark.js';
 import { createPopper } from '@popperjs/core';
+import * as listData from './merged_data.json';
 
 interface MarkElement {
     elem: HTMLElement,
     popperRef: any
 }
 
-interface MarkElementsArray {
+interface MarkedElements {
     [index: string]: MarkElement
 }
 
+interface NeverAgainListItem {
+    name: string;
+    reason: string;
+    proof: string;
+}
+
 class NeverAgain {
-    private markInstance: Mark;
-    public static markElements: MarkElementsArray;
-    public static tooltipInFocus: boolean;
-    public static elemIdCount: number;
+    private _markInstance: Mark;
+    private _list: NeverAgainListItem[] = listData;
+    private _listNames: string[] = this._list.map(item => item.name);
+
+    public static docBody = document.getElementsByTagName('body')[0];
+    public static dataAttrName = 'data-namark';
+    public static markedElements: MarkedElements = {};
+    public static tooltipInFocus = false;
+    public static elemIdCount = 0;
 
     constructor() {
-        const bd: HTMLCollectionOf<HTMLElementTagNameMap['body']> = document.getElementsByTagName('body');
-        this.markInstance = new Mark(bd[0]);
-        NeverAgain.markElements = {};
-        NeverAgain.elemIdCount = 0;
-        NeverAgain.tooltipInFocus = false;
+        this._markInstance = new Mark(NeverAgain.docBody);
+        this._createTooltipElem();
     }
 
-    public markAll(): void {
-        this.markInstance.mark("McDonald's", {className: 'na-highlight', each: NeverAgain.eachMark, done: NeverAgain.afterMark });
-    }
-
-    public static eachMark(elem: HTMLElement): void {
-        const elemId ='na-highlight-' + NeverAgain.elemIdCount;
-        elem.id = elemId;
-        NeverAgain.markElements[elemId] = {elem: elem, popperRef: null};
-        NeverAgain.elemIdCount++;
-    };
-
-    public static afterMark(): void {
+    private _createTooltipElem(): void {
         // Add tooltip element
         const tooltipElem: HTMLElement = document.createElement('div');
-        tooltipElem.appendChild(document.createTextNode("McDonald's Israel feeds Zionists for free."));
+        tooltipElem.appendChild(document.createTextNode("Title"));
         tooltipElem.classList.add('na-tooltip');
         document.body.appendChild(tooltipElem);
         const link: HTMLElement = document.createElement('a');
         link.setAttribute('href','https://www.boycotzionism.com/');
-        link.innerText = "McDonald's Israel announced that it's giving away thousands of free meals to the Israel Defence Forces and citizens.";
+        link.innerText = "Description";
         link.classList.add('a-block');
         tooltipElem.appendChild(link);
+
         // Add arrow to tooltip element
         const tooltipArrowElem: HTMLElement = document.createElement('div');
         tooltipArrowElem.id = 'na-arrow';
@@ -53,26 +52,40 @@ class NeverAgain {
         tooltipElem.appendChild(tooltipArrowElem);
 
         NeverAgain.tooltipInFocus = false;
+    }
 
-        const showEvents: string[] = ['mouseenter', 'focus'];
+    public markAll(): void {
+        const config: Mark.MarkOptions = {
+            className: 'na-highlight', 
+            separateWordSearch: false, 
+            accuracy: "exactly", 
+            each: NeverAgain.eachMark, 
+            done: NeverAgain.afterMark 
+        };
+        this._markInstance.mark(this._listNames, config);
+    }
+
+    public static eachMark(elem: HTMLElement): void {
+        elem.setAttribute(NeverAgain.dataAttrName, NeverAgain.elemIdCount + '');
+        NeverAgain.markedElements[NeverAgain.elemIdCount] = {elem: elem, popperRef: null};
+        NeverAgain.elemIdCount++;
+    };
+
+    public static afterMark(): void {
+        const showEvents: string[] = ['mouseenter', 'focusin'];
         const hideEvents: string[] = ['mouseleave', 'blur'];
 
         showEvents.forEach(showEvent => {
-            Object.keys(NeverAgain.markElements).forEach(mElemId => {
-                NeverAgain.markElements[mElemId].elem.addEventListener(showEvent, () => {
-                    NeverAgain.create(mElemId, tooltipElem);
-                });
-            });
-
-            tooltipElem.addEventListener(showEvent, () => {
+            NeverAgain.docBody.addEventListener(showEvent, (event: Event) => {
+                console.log(event);
+                // NeverAgain.create(event.target, tooltipElem);
                 NeverAgain.tooltipInFocus = true;
             });
-
         });
 
         hideEvents.forEach(hideEvent => {
-            Object.keys(NeverAgain.markElements).forEach(mElemId => {
-                NeverAgain.markElements[mElemId].elem.addEventListener(hideEvent, () => {
+            Object.keys(NeverAgain.markedElements).forEach(mElemId => {
+                NeverAgain.docBody.addEventListener(hideEvent, () => {
                     NeverAgain.destroy(mElemId, tooltipElem);
                 });
             });
@@ -83,10 +96,12 @@ class NeverAgain {
         });
     };
 
-    public static create(elemId: string, tooltipElem: HTMLElement) {
+    public static create(target: unknown, tooltipElem: HTMLElement) {
+
+
         tooltipElem.setAttribute('data-na-show', '');
         tooltipElem.setAttribute('data-na-referrer', elemId);
-        NeverAgain.markElements[elemId].popperRef = createPopper(NeverAgain.markElements[elemId].elem, tooltipElem, {
+        NeverAgain.markedElements[elemId].popperRef = createPopper(NeverAgain.markedElements[elemId].elem, tooltipElem, {
             modifiers: [
                 {
                     name: 'offset',
@@ -103,7 +118,7 @@ class NeverAgain {
             NeverAgain.destroyCore(elemId, tooltipElem);
         } else {
             setTimeout(() => {
-                if (!NeverAgain.tooltipInFocus && NeverAgain.markElements[elemId].popperRef) {
+                if (!NeverAgain.tooltipInFocus && NeverAgain.markedElements[elemId].popperRef) {
                     NeverAgain.destroyCore(elemId, tooltipElem);
                 }
             }, 500);
@@ -114,8 +129,8 @@ class NeverAgain {
         NeverAgain.tooltipInFocus = false;
         tooltipElem.removeAttribute('data-na-show');
         tooltipElem.removeAttribute('data-na-referrer');
-        NeverAgain.markElements[elemId].popperRef.destroy();
-        NeverAgain.markElements[elemId].popperRef = null;
+        NeverAgain.markedElements[elemId].popperRef.destroy();
+        NeverAgain.markedElements[elemId].popperRef = null;
     }
 }
 
