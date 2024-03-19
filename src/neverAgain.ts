@@ -7,10 +7,6 @@ interface MarkElement {
     popperRef: any
 }
 
-interface MarkedElements {
-    [index: string]: MarkElement
-}
-
 interface NeverAgainListItem {
     name: string;
     reason: string;
@@ -24,7 +20,7 @@ class NeverAgain {
 
     public static docBody = document.getElementsByTagName('body')[0];
     public static dataAttrName = 'data-namark';
-    public static markedElements: MarkedElements = {};
+    public static markedElements: MarkElement[] = [];
     public static tooltipInFocus = false;
     public static elemIdCount = 0;
 
@@ -67,7 +63,7 @@ class NeverAgain {
 
     public static eachMark(elem: HTMLElement): void {
         elem.setAttribute(NeverAgain.dataAttrName, NeverAgain.elemIdCount + '');
-        NeverAgain.markedElements[NeverAgain.elemIdCount] = {elem: elem, popperRef: null};
+        NeverAgain.markedElements.push({elem: elem, popperRef: null});
         NeverAgain.elemIdCount++;
     };
 
