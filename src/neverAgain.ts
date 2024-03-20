@@ -72,13 +72,19 @@ class NeverAgain {
         NeverAgain.markedElements.map(mElem => {
             mElem.elem.addEventListener('mouseenter', () => {
                 NeverAgain.create(mElem);
-                NeverAgain.tooltipInFocus = true;
             });
+            const tooltipFocus = () => NeverAgain.tooltipInFocus = true;
+            NeverAgain.tooltipElem.addEventListener('mouseenter', tooltipFocus);
+            NeverAgain.tooltipElem.addEventListener('focus', tooltipFocus);
+
 
             const destroy = () => NeverAgain.destroy(mElem);
-
             mElem.elem.addEventListener('mouseleave', destroy);
             mElem.elem.addEventListener('blur', destroy);
+
+            const ttDestroy = () => NeverAgain.destroy(<string>tooltipElem.getAttribute('data-na-referrer'), tooltipElem, true);
+            NeverAgain.tooltipElem.addEventListener('mouseleave', ttDestroy);
+            NeverAgain.tooltipElem.addEventListener('blur', ttDestroy);
         });
     };
 
@@ -96,16 +102,13 @@ class NeverAgain {
         });
     }
 
-    public static destroy(elem: MarkElement, fromTooltip: boolean = false) {
-        if (fromTooltip) {
-            NeverAgain.destroyCore(elem);
-        } else {
-            setTimeout(() => {
-                if (!NeverAgain.tooltipInFocus && elem.popperRef) {
-                    NeverAgain.destroyCore(elem);
-                }
-            }, 500);
-        }
+    public static destroy(elem: MarkElement) {
+        /* setTimeout(() => {
+            if (!NeverAgain.tooltipInFocus && elem.popperRef) {
+                NeverAgain.destroyCore(elem);
+            }
+        }, 500); */
+        NeverAgain.destroyCore(elem);
     }
 
     public static destroyCore(elem: MarkElement) {
