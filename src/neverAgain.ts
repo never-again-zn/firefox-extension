@@ -21,7 +21,7 @@ class NeverAgain {
     public static docBody = document.getElementsByTagName('body')[0];
     public static dataAttrName = 'data-namark';
     public static markedElements: MarkElement[] = [];
-    public static tooltipInFocus = false;
+    public static markedElementInFocus: null | MarkElement = null;
     public static tooltipElem: HTMLElement;
     public static elemIdCount = 0;
 
@@ -47,8 +47,6 @@ class NeverAgain {
         tooltipArrowElem.id = 'na-arrow';
         tooltipArrowElem.setAttribute('data-popper-arrow', '');
         NeverAgain.tooltipElem.appendChild(tooltipArrowElem);
-
-        NeverAgain.tooltipInFocus = false;
     }
 
     public markAll(): void {
@@ -72,17 +70,14 @@ class NeverAgain {
         NeverAgain.markedElements.map(mElem => {
             mElem.elem.addEventListener('mouseenter', () => {
                 NeverAgain.create(mElem);
+                NeverAgain.markedElementInFocus = mElem;
             });
-            const tooltipFocus = () => NeverAgain.tooltipInFocus = true;
-            NeverAgain.tooltipElem.addEventListener('mouseenter', tooltipFocus);
-            NeverAgain.tooltipElem.addEventListener('focus', tooltipFocus);
-
 
             const destroy = () => NeverAgain.destroy(mElem);
             mElem.elem.addEventListener('mouseleave', destroy);
             mElem.elem.addEventListener('blur', destroy);
 
-            const ttDestroy = () => NeverAgain.destroy(<string>tooltipElem.getAttribute('data-na-referrer'), tooltipElem, true);
+            const ttDestroy = () => NeverAgain.destroy(NeverAgain.markedElementInFocus, true);
             NeverAgain.tooltipElem.addEventListener('mouseleave', ttDestroy);
             NeverAgain.tooltipElem.addEventListener('blur', ttDestroy);
         });
@@ -102,17 +97,24 @@ class NeverAgain {
         });
     }
 
-    public static destroy(elem: MarkElement) {
-        /* setTimeout(() => {
-            if (!NeverAgain.tooltipInFocus && elem.popperRef) {
-                NeverAgain.destroyCore(elem);
-            }
-        }, 500); */
-        NeverAgain.destroyCore(elem);
+    public static destroy(elem: MarkElement | null, fromTooltip: boolean = false) {
+        if (!elem) {
+            return;
+        }
+
+        if (fromTooltip) {
+            NeverAgain.destroyCore(elem);
+        } else {
+            setTimeout(() => {
+                if (!NeverAgain.markedElementInFocus && elem.popperRef) {
+                    NeverAgain.destroyCore(elem);
+                }
+            }, 500);
+        }
     }
 
     public static destroyCore(elem: MarkElement) {
-        NeverAgain.tooltipInFocus = false;
+        NeverAgain.markedElementInFocus = null;
         NeverAgain.tooltipElem.removeAttribute('data-na-show');
         elem.popperRef.destroy();
         elem.popperRef = null;
