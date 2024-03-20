@@ -66,21 +66,27 @@ class NeverAgain {
         NeverAgain.elemIdCount++;
     };
 
-    public static afterMark(): void {            
+    public static afterMark(): void {          
         NeverAgain.markedElements.map(mElem => {
             mElem.elem.addEventListener('mouseenter', () => {
                 NeverAgain.create(mElem);
                 NeverAgain.markedElementInFocus = mElem;
+
+                const destroy = () => NeverAgain.destroy(mElem);
+                mElem.elem.addEventListener('mouseleave', destroy);
+                mElem.elem.addEventListener('blur', destroy);
+
+               const mouseEnterListener = () => {
+                    NeverAgain.markedElementInFocus = mElem;
+                    NeverAgain.tooltipElem.removeEventListener('mouseleave', mouseEnterListener);
+                }
+               NeverAgain.tooltipElem.addEventListener('mouseenter', mouseEnterListener);
             });
-
-            const destroy = () => NeverAgain.destroy(mElem);
-            mElem.elem.addEventListener('mouseleave', destroy);
-            mElem.elem.addEventListener('blur', destroy);
-
-            const ttDestroy = () => NeverAgain.destroy(NeverAgain.markedElementInFocus, true);
-            NeverAgain.tooltipElem.addEventListener('mouseleave', ttDestroy);
-            NeverAgain.tooltipElem.addEventListener('blur', ttDestroy);
         });
+
+        const ttDestroy = () => NeverAgain.destroy(NeverAgain.markedElementInFocus, true);
+        NeverAgain.tooltipElem.addEventListener('mouseleave', ttDestroy);
+        NeverAgain.tooltipElem.addEventListener('blur', ttDestroy);
     };
 
     public static create(elem: MarkElement) {
@@ -102,11 +108,13 @@ class NeverAgain {
             return;
         }
 
+        NeverAgain.markedElementInFocus = null;
+
         if (fromTooltip) {
             NeverAgain.destroyCore(elem);
         } else {
             setTimeout(() => {
-                if (!NeverAgain.markedElementInFocus && elem.popperRef) {
+                if (!NeverAgain.markedElementInFocus) {
                     NeverAgain.destroyCore(elem);
                 }
             }, 500);
@@ -114,7 +122,6 @@ class NeverAgain {
     }
 
     public static destroyCore(elem: MarkElement) {
-        NeverAgain.markedElementInFocus = null;
         NeverAgain.tooltipElem.removeAttribute('data-na-show');
         elem.popperRef.destroy();
         elem.popperRef = null;
