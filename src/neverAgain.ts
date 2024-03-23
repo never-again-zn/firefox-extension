@@ -61,12 +61,16 @@ class NeverAgain {
     }
 
     public static eachMark(elem: HTMLElement): void {
+        return;
+        
         elem.setAttribute(NeverAgain.dataAttrName, NeverAgain.elemIdCount + '');
         NeverAgain.markedElements.push({elem: elem, popperRef: null});
         NeverAgain.elemIdCount++;
     };
 
-    public static afterMark(): void {          
+    public static afterMark(): void {
+        return;
+
         NeverAgain.markedElements.map(mElem => {
             mElem.elem.addEventListener('mouseenter', () => {
                 NeverAgain.create(mElem);
