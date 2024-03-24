@@ -1,6 +1,7 @@
 import Mark from 'mark.js';
 import { createPopper } from '@popperjs/core';
-import * as listData from './merged_data.json';
+import * as namedData from './named_data.json';
+import * as names from './names.json';
 
 interface MarkElement {
     elem: HTMLElement,
@@ -8,16 +9,19 @@ interface MarkElement {
 }
 
 interface NeverAgainListItem {
-    name: string;
-    reason: string;
-    proof: string;
+    [key: string]: {
+        data: {
+            reason: string;
+            proof: string;
+        }
+    }
 }
 
 class NeverAgain {
     private _markInstance: Mark;
-    private _list: NeverAgainListItem[] = listData;
-    private _listNames: string[] = this._list.map(item => item.name);
-
+    private _listNames: string[] = names;
+    
+    public static data: NeverAgainListItem = namedData;
     public static docBody = document.getElementsByTagName('body')[0];
     public static dataAttrName = 'data-namark';
     public static markedElements: MarkElement[] = [];
@@ -26,19 +30,19 @@ class NeverAgain {
     public static elemIdCount = 0;
 
     constructor() {
-        this._markInstance = new Mark(NeverAgain.docBody);
+        this._markInstance = new Mark(NeverAgain.docBody); 
         this._createTooltipElem();
     }
 
     private _createTooltipElem(): void {
         // Add tooltip element
         NeverAgain.tooltipElem = document.createElement('div');
-        NeverAgain.tooltipElem.appendChild(document.createTextNode("Title"));
+        NeverAgain.tooltipElem.appendChild(document.createTextNode("Boycott Zionism"));
         NeverAgain.tooltipElem.classList.add('na-tooltip');
         document.body.appendChild(NeverAgain.tooltipElem);
         const link: HTMLElement = document.createElement('a');
         link.setAttribute('href','https://www.boycotzionism.com/');
-        link.innerText = "Description";
+        link.innerText = "Boycott Zionism";
         link.classList.add('a-block');
         NeverAgain.tooltipElem.appendChild(link);
 
@@ -60,17 +64,22 @@ class NeverAgain {
         this._markInstance.mark(this._listNames, config);
     }
 
-    public static eachMark(elem: HTMLElement): void {
-        return;
+    public static updateTooltipLink(name: string | null) {
+        if (!name) return;
         
+        const link = NeverAgain.data[name].data.proof;
+        const linkText = NeverAgain.data[name].data.reason;
+        NeverAgain.tooltipElem.querySelector('a')!.setAttribute('href', link);
+        NeverAgain.tooltipElem.querySelector('a')!.textContent = linkText;
+    }
+
+    public static eachMark(elem: HTMLElement): void {
         elem.setAttribute(NeverAgain.dataAttrName, NeverAgain.elemIdCount + '');
         NeverAgain.markedElements.push({elem: elem, popperRef: null});
         NeverAgain.elemIdCount++;
     };
 
     public static afterMark(): void {
-        return;
-
         NeverAgain.markedElements.map(mElem => {
             mElem.elem.addEventListener('mouseenter', () => {
                 NeverAgain.create(mElem);
@@ -95,6 +104,9 @@ class NeverAgain {
 
     public static create(elem: MarkElement) {
         NeverAgain.tooltipElem.setAttribute('data-na-show', 'true');
+        const name = elem.elem.textContent;
+        NeverAgain.updateTooltipLink(name);
+
         elem.popperRef = createPopper(elem.elem, NeverAgain.tooltipElem, {
             modifiers: [
                 {

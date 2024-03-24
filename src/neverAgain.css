@@ -1,12 +1,14 @@
 .na-tooltip {
     background: #333;
-    color: white;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
+    color: #fff;
+    padding: 1rem 1.2rem;
     font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
     border-radius: 0.3rem;
     display: none;
-    z-index: 100000;
+    z-index: 2147483647;
+    max-width: 500px;
 }
 
 .na-tooltip[data-na-show] {
@@ -45,13 +47,15 @@
 
 .a-block {
     display: block;
+    font-weight: normal;
+    margin-top: 0.75rem;
 
 }
 
 .a-block:link {
-    color: #ffb300;
+    color: #fff;
 }
 
 .a-block:visited {
-    color: #ffb300;
+    color: #fff;
 }
