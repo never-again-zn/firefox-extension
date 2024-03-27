@@ -94,6 +94,8 @@ class NeverAgain {
                     NeverAgain.tooltipElem.removeEventListener('mouseleave', mouseEnterListener);
                 }
                NeverAgain.tooltipElem.addEventListener('mouseenter', mouseEnterListener);
+               // TODO: when you hover over links with a marked element, no popup i.e. https://blog.langchain.dev/self-learning-gpts/
+               NeverAgain.tooltipElem.addEventListener('focus', mouseEnterListener);
             });
         });
 

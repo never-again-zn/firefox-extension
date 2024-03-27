@@ -119,6 +119,12 @@
       "proof": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=766ad3d811f5"
     }
   },
+  "Express VPN": {
+    "data": {
+      "reason": "Owned by Kape, Kape is owned by Teddy Sagi who supports the Israeli military.",
+      "proof": "https://en.globes.co.il/en/article-sagi-donates-nis-1m-to-omer-adams-taxis-for-soldiers-initiative-1001462858"
+    }
+  },
   "Fanta": {
     "data": {
       "reason": "Owned by The Coca-Cola Company. Coca-Cola Israel owns dairy farms in the illegal Israeli settlements of Shadmot Mechola in the Jordan Valley and a plant in the industrial zone of Katzerin in the occupied Golan Heights.",
@@ -1865,6 +1871,12 @@
       "proof": "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel"
     }
   },
+  "Kape": {
+    "data": {
+      "reason": "Kape is owned by Teddy Sagi who supports the Israeli military.",
+      "proof": "https://en.globes.co.il/en/article-sagi-donates-nis-1m-to-omer-adams-taxis-for-soldiers-initiative-1001462858"
+    }
+  },
   "Kaufland": {
     "data": {
       "reason": "Dieter Schwarz is the owner of KAUFLAND. Dieter Schwarz's family office fund, Zukunftsfonds Heilbronn (ZFHN), is gearing up to invest millions in Israeli technologies. The fund plans to invest between $500,000 and several million dollars in Israeli seed and pre-seed companies, focusing on areas like IoT, robotics, autonomous driving, energy systems, new materials, and biotech.",
@@ -2763,6 +2775,12 @@
     "data": {
       "reason": "Owned by Henkel. Henkel invests in Israeli technology namely by investing in Feelit. A company with its roots in Israël.",
       "proof": "https://www.henkel.com/press-and-media/press-releases-and-kits/2021-01-07-henkel-invests-in-technology-start-up-feelit-1141594"
+    }
+  },
+  "Private Internet Access": {
+    "data": {
+      "reason": "Owned by Kape, Kape is owned by Teddy Sagi who supports the Israeli military.",
+      "proof": "https://en.globes.co.il/en/article-sagi-donates-nis-1m-to-omer-adams-taxis-for-soldiers-initiative-1001462858"
     }
   },
   "Procter&Gamble": {
