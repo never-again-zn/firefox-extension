@@ -57,7 +57,9 @@ class NeverAgain {
         const config: Mark.MarkOptions = {
             className: 'na-highlight', 
             separateWordSearch: false, 
-            accuracy: "exactly", 
+            accuracy: "exactly",
+            diacritics: false,
+            caseSensitive: true,
             each: NeverAgain.eachMark, 
             done: NeverAgain.afterMark 
         };
@@ -74,13 +76,13 @@ class NeverAgain {
     }
 
     public static eachMark(elem: HTMLElement): void {
-        elem.setAttribute(NeverAgain.dataAttrName, NeverAgain.elemIdCount + '');
+        // elem.setAttribute(NeverAgain.dataAttrName, NeverAgain.elemIdCount + '');
         NeverAgain.markedElements.push({elem: elem, popperRef: null});
-        NeverAgain.elemIdCount++;
+        // NeverAgain.elemIdCount++;
     };
 
     public static afterMark(): void {
-        NeverAgain.markedElements.map(mElem => {
+        /* NeverAgain.markedElements.map(mElem => {
             mElem.elem.addEventListener('mouseenter', () => {
                 NeverAgain.create(mElem);
                 NeverAgain.markedElementInFocus = mElem;
@@ -101,7 +103,7 @@ class NeverAgain {
 
         const ttDestroy = () => NeverAgain.destroy(NeverAgain.markedElementInFocus, true);
         NeverAgain.tooltipElem.addEventListener('mouseleave', ttDestroy);
-        NeverAgain.tooltipElem.addEventListener('blur', ttDestroy);
+        NeverAgain.tooltipElem.addEventListener('blur', ttDestroy); */
     };
 
     public static create(elem: MarkElement) {
