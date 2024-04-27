@@ -1,8 +1,7 @@
 {
-
   "manifest_version": 2,
   "name": "Never Again",
-  "version": "1.1",
+  "version": "1.2",
 
   "description": "Highlights the products and brands related to apartheid Israel.",
 
@@ -13,10 +12,7 @@
     "96": "icons/never-again-logo-icon-only-128x128-min.svg"
   },
 
-  "permissions": [
-    "http://*/*",
-    "https://*/*"
-  ],
+  "permissions": ["http://*/*", "https://*/*"],
 
   "content_scripts": [
     {
@@ -32,5 +28,4 @@
       "id": "{7f436741-e7ba-4a93-b648-3b09af0f5b2e}"
     }
   }
-
 }
