@@ -5,6 +5,12 @@
       "proof": "https://adidasunderwear.com/pages/adidas-underwear-partnership"
     }
   },
+  "Ahava": {
+    "data": {
+      "reason": "[** BDS boycott target **] Ahava cosmetics has its production site, visitor center and main store in an illegal Israeli settlement.",
+      "proof": "https://bdsmovement.net/get-involved/what-to-boycott"
+    }
+  },
   "Amazon": {
     "data": {
       "reason": "Amazon and Google are working together on Project Nimbus. \nProject Nimbus is a $1.2bn contract to provide cloud services for the Israeli military and government. This technology allows for further surveillance of and unlawful data collection on Palestinians, and facilitates expansion of Israel’s illegal settlements on Palestinian land.",
@@ -179,9 +185,15 @@
       "proof": "https://www.hm.com/is/store-locator/israel/"
     }
   },
-  "HP (Hewlett Packard)": {
+  "HP": {
     "data": {
-      "reason": "HP provides computer hardware to the Israeli army and maintains data centers through their servers for the Israeli police.",
+      "reason": "[** BDS boycott target **] HP provides computer hardware to the Israeli army and maintains data centers through their servers for the Israeli police.",
+      "proof": "https://bdsmovement.net/boycott-hp"
+    }
+  },
+  "Hewlett Packard": {
+    "data": {
+      "reason": "[** BDS boycott target **] Hewlett Packard (HP) provides computer hardware to the Israeli army and maintains data centers through their servers for the Israeli police.",
       "proof": "https://bdsmovement.net/boycott-hp"
     }
   },
@@ -2807,6 +2819,12 @@
       "proof": "https://new.thecradle.co/articles/palestinians-boycott-zara-for-hosting-israeli-extremist"
     }
   },
+  "Puma": {
+    "data": {
+      "reason": "[** BDS boycott target **] Puma sponsors the Israel Football Association, which includes teams in Israel’s illegal settlements on occupied Palestinian land.",
+      "proof": "https://bdsmovement.net/boycott-puma"
+    }
+  },
   "Pure Leaf": {
     "data": {
       "reason": "Owned by PepsiCo. PepsiCo bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
@@ -2943,6 +2961,12 @@
     "data": {
       "reason": "Owned by PepsiCo. PepsiCo bought SodaStream for $3.2bn and owns 50% of Sabra both of which had taken advantage of the Israeli occupation of Palestine.",
       "proof": "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall#xj4y7vzkg"
+    }
+  },
+  "Sabra": {
+    "data": {
+      "reason": "[** BDS boycott target **] Sabra hummus is a joint venture between PepsiCo and the Strauss Group, an Israeli food company that provides financial support to the Israeli army.",
+      "proof": " https://bdsmovement.net/get-involved/what-to-boycott"
     }
   },
   "Sabritas": {
