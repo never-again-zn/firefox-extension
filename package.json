@@ -31,10 +31,10 @@
     "mark.js": "^8.11.1"
   },
   "devDependencies": {
-    "@parcel/validator-typescript": "^2.11.0",
+    "@parcel/validator-typescript": "^2.15.2",
     "@types/mark.js": "^8.11.12",
-    "@types/webextension-polyfill": "^0.10.7",
-    "parcel": "^2.11.0",
-    "typescript": "^5.3.3"
+    "@types/webextension-polyfill": "^0.12.3",
+    "parcel": "^2.15.2",
+    "typescript": "^5.8.3"
   }
 }
