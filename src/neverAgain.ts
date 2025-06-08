@@ -157,5 +157,9 @@ class NeverAgain {
   }
 }
 
-const neverAgain = new NeverAgain();
-neverAgain.markAll();
+// Defer execution until the page has fully loaded
+window.addEventListener('load', () => {
+  console.log('NeverAgain: Page loaded, starting marking process');
+  const neverAgain = new NeverAgain();
+  neverAgain.markAll();
+});
