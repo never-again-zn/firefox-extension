@@ -24,7 +24,7 @@ class NeverAgain {
   public static data: NeverAgainListItem = namedData;
   public static docBody = document.getElementsByTagName('body')[0];
   public static dataAttrName = 'data-namark';
-  public static markedElements: MarkElement[] = [];
+  public static markedElementsMap: WeakMap<HTMLElement, any> = new WeakMap();
   public static markedElementInFocus: null | MarkElement = null;
   public static tooltipElem: HTMLElement;
 
@@ -77,37 +77,38 @@ class NeverAgain {
   }
 
   public static eachMark(elem: HTMLElement): void {
-    NeverAgain.markedElements.push({ elem: elem, popperRef: null });
+    NeverAgain.markedElementsMap.set(elem, { popperRef: null });
   }
 
   public static afterMark(): void {
-    NeverAgain.markedElements.map((mElem) => {
-      mElem.elem.addEventListener('mouseenter', () => {
-        NeverAgain.create(mElem);
-        NeverAgain.markedElementInFocus = mElem;
-
-        const destroy = () => NeverAgain.destroy(mElem);
-        mElem.elem.addEventListener('mouseleave', destroy);
-        mElem.elem.addEventListener('blur', destroy);
-
-        const mouseEnterListener = () => {
-          NeverAgain.markedElementInFocus = mElem;
-          NeverAgain.tooltipElem.removeEventListener(
-            'mouseleave',
-            mouseEnterListener
-          );
-        };
-        NeverAgain.tooltipElem.addEventListener(
-          'mouseenter',
-          mouseEnterListener
-        );
-        // TODO: when you hover over links with a marked element, no popup i.e. https://blog.langchain.dev/self-learning-gpts/
-        NeverAgain.tooltipElem.addEventListener('focus', mouseEnterListener);
+    document.querySelectorAll('.na-highlight').forEach((element) => {
+      const elem = element as HTMLElement;
+      elem.addEventListener('mouseenter', () => {
+        const data = NeverAgain.markedElementsMap.get(elem);
+        if (data) {
+          NeverAgain.create({ elem, popperRef: data.popperRef });
+          NeverAgain.markedElementInFocus = { elem, popperRef: data.popperRef };
+          
+          const destroy = () => NeverAgain.destroy({ elem, popperRef: data.popperRef });
+          elem.addEventListener('mouseleave', destroy);
+          elem.addEventListener('blur', destroy);
+          
+          const mouseEnterListener = () => {
+            NeverAgain.markedElementInFocus = { elem, popperRef: data.popperRef };
+            NeverAgain.tooltipElem.removeEventListener('mouseleave', mouseEnterListener);
+          };
+          
+          NeverAgain.tooltipElem.addEventListener('mouseenter', mouseEnterListener);
+          NeverAgain.tooltipElem.addEventListener('focus', mouseEnterListener);
+        }
       });
     });
 
-    const ttDestroy = () =>
-      NeverAgain.destroy(NeverAgain.markedElementInFocus, true);
+    const ttDestroy = () => {
+      if (NeverAgain.markedElementInFocus) {
+        NeverAgain.destroy(NeverAgain.markedElementInFocus, true);
+      }
+    };
     NeverAgain.tooltipElem.addEventListener('mouseleave', ttDestroy);
     NeverAgain.tooltipElem.addEventListener('blur', ttDestroy);
   }
@@ -117,7 +118,7 @@ class NeverAgain {
     const name = elem.elem.textContent;
     NeverAgain.updateTooltipLink(name);
 
-    elem.popperRef = createPopper(elem.elem, NeverAgain.tooltipElem, {
+    const popperRef = createPopper(elem.elem, NeverAgain.tooltipElem, {
       modifiers: [
         {
           name: 'offset',
@@ -127,6 +128,9 @@ class NeverAgain {
         },
       ],
     });
+    
+    NeverAgain.markedElementsMap.set(elem.elem, { popperRef });
+    elem.popperRef = popperRef;
   }
 
   public static destroy(
@@ -152,8 +156,16 @@ class NeverAgain {
 
   public static destroyCore(elem: MarkElement) {
     NeverAgain.tooltipElem.removeAttribute('data-na-show');
-    elem.popperRef.destroy();
-    elem.popperRef = null;
+    if (elem.popperRef) {
+      elem.popperRef.destroy();
+      elem.popperRef = null;
+      
+      const data = NeverAgain.markedElementsMap.get(elem.elem);
+      if (data) {
+        data.popperRef = null;
+        NeverAgain.markedElementsMap.set(elem.elem, data);
+      }
+    }
   }
 }
 
