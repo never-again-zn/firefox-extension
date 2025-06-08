@@ -62,9 +62,33 @@ class NeverAgain {
       diacritics: false,
       caseSensitive: true,
       each: NeverAgain.eachMark,
-      done: NeverAgain.afterMark,
+      done: () => {}
     };
-    this._markInstance.mark(this._listNames, config);
+    
+    // Process names in smaller chunks to avoid regex stack overflow in Chrome
+    const chunkSize = 50;
+    let processedCount = 0;
+    
+    const processNextChunk = () => {
+      const chunk = this._listNames.slice(processedCount, processedCount + chunkSize);
+      if (chunk.length === 0) {
+        // All chunks processed, call afterMark
+        NeverAgain.afterMark();
+        return;
+      }
+      
+      this._markInstance.mark(chunk, {
+        ...config,
+        done: () => {
+          processedCount += chunk.length;
+          // Use setTimeout to avoid deep call stack
+          setTimeout(processNextChunk, 0);
+        }
+      });
+    };
+    
+    // Start processing chunks
+    processNextChunk();
   }
 
   public static updateTooltipLink(name: string | null) {
