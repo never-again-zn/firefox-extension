@@ -8,7 +8,7 @@ The extension literally highlights the name of the brand, product or company on 
 The [Firefox browser extension](https://addons.mozilla.org/en-US/firefox/addon/never-again-zn-edition/).
 
 ## Chrome
-The Chrome browser extension (coming soon, currently under review).
+The [Chrome browser extension](https://chromewebstore.google.com/detail/never-again/ggjpmilchdbcldfdcgnbljhncligfdig).
 
 ## Website
 
